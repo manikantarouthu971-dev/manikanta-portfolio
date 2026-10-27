@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#0b1020">
+<meta name="description" content="Manikanta's beginner website testing portfolio with practice projects and sample bug reports.">
+<title>Manikanta | Website Testing Portfolio</title>
+<style>
+:root{--bg:#080d1b;--panel:#10182b;--panel2:#151f36;--text:#f2f6ff;--muted:#a7b4cc;--mint:#70f0cf;--blue:#8ba8ff;--line:rgba(255,255,255,.12)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 85% 0%,#18294b 0,transparent 38%),var(--bg);color:var(--text);font:16px/1.65 system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}a{color:var(--mint)}.wrap{width:min(1100px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:22px 0;gap:18px}.brand{font-weight:800;letter-spacing:.04em}.brand span{color:var(--mint)}nav{display:flex;gap:20px;flex-wrap:wrap}nav a{text-decoration:none;color:var(--muted);font-size:.94rem}nav a:hover{color:var(--mint)}.hero{padding:70px 0 58px;display:grid;grid-template-columns:1.3fr .7fr;gap:40px;align-items:center}.tag{display:inline-flex;border:1px solid rgba(112,240,207,.35);background:rgba(112,240,207,.08);color:var(--mint);border-radius:99px;padding:6px 12px;font-size:.82rem}.hero h1{font-size:clamp(2.6rem,6vw,4.8rem);line-height:1.05;margin:20px 0}.hero h1 span{color:var(--mint)}.lead{color:var(--muted);font-size:1.1rem;max-width:650px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;text-decoration:none;padding:12px 17px;border-radius:12px;font-weight:700;border:1px solid var(--line);color:var(--text);transition:transform .2s,background .2s}.btn.primary{background:var(--mint);color:#07111a;border-color:var(--mint)}.btn:hover{transform:translateY(-3px)}.visual{border:1px solid var(--line);background:linear-gradient(145deg,rgba(112,240,207,.1),rgba(139,168,255,.08));border-radius:26px;padding:26px;box-shadow:0 25px 80px rgba(0,0,0,.2);animation:float 5s ease-in-out infinite}.visual .big{font-size:4rem}.visual h3{margin:8px 0}.visual p{color:var(--muted);margin:0}.chips{display:flex;gap:8px;flex-wrap:wrap;margin-top:18px}.chip{font-size:.8rem;background:rgba(255,255,255,.06);border:1px solid var(--line);border-radius:8px;padding:5px 9px;color:var(--muted)}section{padding:48px 0;scroll-margin-top:20px}.eyebrow{color:var(--mint);text-transform:uppercase;letter-spacing:.16em;font-size:.76rem;font-weight:800}h2{font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.2;margin:8px 0 14px}.sub{color:var(--muted);max-width:700px}.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:17px;margin-top:26px}.card{border:1px solid var(--line);background:linear-gradient(160deg,var(--panel),rgba(16,24,43,.72));padding:23px;border-radius:18px;transition:transform .25s,border-color .25s}.card:hover{transform:translateY(-5px);border-color:rgba(112,240,207,.45)}.icon{font-size:1.7rem}.card h3{margin:10px 0 8px}.card p,.card li{color:var(--muted)}.practice{display:inline-block;border-radius:99px;background:rgba(139,168,255,.12);color:#b9caff;padding:4px 9px;font-size:.74rem;font-weight:700;margin:3px 0 10px}.report{overflow:auto;margin-top:25px;border:1px solid var(--line);border-radius:16px}table{width:100%;border-collapse:collapse;min-width:650px;background:var(--panel)}th,td{text-align:left;padding:14px;border-bottom:1px solid var(--line);vertical-align:top}th{color:var(--mint);font-size:.85rem;background:var(--panel2)}td{color:var(--muted);font-size:.92rem}.note{margin-top:14px;color:var(--muted);font-size:.9rem}.skills{display:flex;gap:10px;flex-wrap:wrap;margin-top:20px}.skill{border:1px solid var(--line);border-radius:11px;padding:9px 12px;background:rgba(255,255,255,.04)}.contact{display:grid;grid-template-columns:1fr 1fr;gap:22px;align-items:start}.contactbox{border:1px solid var(--line);border-radius:18px;padding:25px;background:var(--panel)}.contactbox p{color:var(--muted)}footer{padding:25px 0 40px;color:var(--muted);border-top:1px solid var(--line);font-size:.9rem}.reveal{opacity:0;transform:translateY(18px);animation:rise .7s ease forwards}.delay1{animation-delay:.12s}.delay2{animation-delay:.24s}@keyframes rise{to{opacity:1;transform:translateY(0)}}@keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-8px)}}@media(max-width:780px){.hero{grid-template-columns:1fr;padding-top:45px}.visual{max-width:500px}.grid{grid-template-columns:1fr}.contact{grid-template-columns:1fr}.nav{align-items:flex-start;flex-direction:column}nav{gap:13px}}@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation:none!important;scroll-behavior:auto!important;transition:none!important}.reveal{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="#home" style="text-decoration:none;color:inherit">MANIKANTA<span>.</span></a>
+  <nav aria-label="Main navigation"><a href="#about">About</a><a href="#projects">Practice Projects</a><a href="#reports">Sample Bug Reports</a><a href="#contact">Contact</a></nav>
+</header>
+<main>
+<section class="wrap hero" id="home">
+  <div class="reveal">
+    <span class="tag">Beginner · Manual Website Testing</span>
+    <h1>Hi, I'm <span>Manikanta.</span><br>I test websites with care.</h1>
+    <p class="lead">I’m learning manual website testing and building my skills through practice test cases, login checks, shopping-cart scenarios, and clear sample bug reports.</p>
+    <div class="actions"><a class="btn primary" href="#projects">Explore practice work ↓</a><a class="btn" href="#contact">Contact details</a></div>
+  </div>
+  <aside class="visual reveal delay1"><div class="big">⌘ ✓</div><h3>Quality starts with curiosity.</h3><p>Careful steps. Clear evidence. Helpful reports.</p><div class="chips"><span class="chip">Manual QA</span><span class="chip">Test Cases</span><span class="chip">Bug Reports</span></div></aside>
+</section>
+<section id="about" class="wrap">
+  <div class="eyebrow">About me</div><h2>Learning to find issues before users do.</h2>
+  <p class="sub">I’m a beginner website tester focused on understanding expected versus actual behavior, writing clear reproduction steps, and documenting findings in a structured way. The examples on this page are practice samples, not claims of paid client work.</p>
+  <div class="skills"><span class="skill">Manual Testing Basics</span><span class="skill">Login Test Scenarios</span><span class="skill">Shopping Cart Scenarios</span><span class="skill">Expected vs Actual Results</span><span class="skill">Severity & Priority Basics</span><span class="skill">Test Case Writing</span></div>
+</section>
+<section id="projects" class="wrap">
+  <div class="eyebrow">Selected learning work</div><h2>Practice projects</h2><p class="sub">Sample scenarios created for learning. These are not verified findings from a live client website.</p>
+  <div class="grid">
+    <article class="card reveal"><div class="icon">🔐</div><span class="practice">PRACTICE PROJECT</span><h3>Login Testing</h3><p>Practice checking common sign-in scenarios and expected responses.</p><ul><li>Valid credentials should allow sign-in.</li><li>Incorrect password should show a clear error.</li><li>Empty required fields should be validated.</li></ul></article>
+    <article class="card reveal delay1"><div class="icon">🛒</div><span class="practice">PRACTICE PROJECT</span><h3>Shopping Cart Testing</h3><p>Practice verifying cart updates and totals.</p><ul><li>Add a product and verify it appears.</li><li>Remove a product and verify it disappears.</li><li>Change quantity and check the displayed total.</li></ul></article>
+    <article class="card reveal delay2"><div class="icon">🧪</div><span class="practice">PRACTICE PROJECT</span><h3>Test Cases & Bug Reports</h3><p>Practice writing reproducible, easy-to-understand QA notes.</p><ul><li>Write preconditions and steps.</li><li>Record expected and actual results.</li><li>Suggest severity and priority for review.</li></ul></article>
+  </div>
+</section>
+<section id="reports" class="wrap">
+  <div class="eyebrow">Example documentation</div><h2>Sample bug reports</h2><p class="sub">These are hypothetical training examples to demonstrate reporting format. They have not been confirmed on a real product.</p>
+  <div class="report"><table><thead><tr><th>Sample title</th><th>Expected result</th><th>Hypothetical actual result</th><th>Suggested severity</th></tr></thead><tbody>
+  <tr><td>Login remains on sign-in page</td><td>Valid test credentials should open the home page.</td><td>For this sample scenario, the page remains on sign-in.</td><td>High (example only)</td></tr>
+  <tr><td>Removed cart item still appears</td><td>Removed product should no longer appear in the cart.</td><td>For this sample scenario, the item remains visible.</td><td>Medium (example only)</td></tr>
+  <tr><td>Cart total does not update</td><td>Total should reflect the selected quantity and price.</td><td>For this sample scenario, the total stays unchanged.</td><td>Medium (example only)</td></tr>
+  </tbody></table></div>
+  <p class="note">Tip: In a real report, include the test environment, clear reproduction steps, relevant screenshots, and the observed result. Only report a bug after reproducing it.</p>
+</section>
+<section id="contact" class="wrap">
+  <div class="eyebrow">Contact</div><h2>Let's connect</h2>
+  <div class="contact">
+    <div><p class="sub">I’m open to learning opportunities and beginner-friendly website testing work. You can view my profile and contact me through Freelancer.</p></div>
+    <div class="contactbox"><h3>Contact me</h3><p><strong>Email:</strong> <a href="mailto:manikantarouthu971@gmail.com">manikantarouthu971@gmail.com</a></p><h3>Freelancer profile</h3><p>View my Freelancer profile and contact me there.</p><a class="btn primary" href="https://www.freelancer.com/u/manikantar61?sb=t" target="_blank" rel="noopener noreferrer">View my Freelancer profile</a></div>
+  </div>
+</section>
+</main>
+<footer><div class="wrap">© <span id="year">2026</span> Manikanta · Beginner Website Testing Portfolio · Sample work is for practice only.</div></footer>
+<script>
+document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
